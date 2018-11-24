@@ -30,6 +30,9 @@ configurations {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
+
+	compile('org.mybatis.spring.boot:mybatis-spring-boot-starter:1.1.1')
+
 	runtime('mysql:mysql-connector-java')
 	compileOnly('org.projectlombok:lombok')
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')

@@ -1,0 +1,1 @@
+package com.example.demo.domain.db.mapper;import com.example.demo.domain.db.pojo.UserDO;public interface UserMapper {    UserDO selectByPrimaryKey(Long id);}
